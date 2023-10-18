@@ -29,9 +29,7 @@ The final accuracy of this part is 63% . the visualization of the clustering out
 our model on test is as follow:
 
 
-
    ![open](images/ph1_2.jpg "open")
-
 
 ## References 
 [1] Koonce, B. and Koonce, B., 2021. EfficientNet. Convolutional Neural Networks with 
