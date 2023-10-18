@@ -18,7 +18,19 @@ architecture as follow :
    ![net](images/ph1_1.jpg "net")
 
 
-   ![interpratable](images/intro_1.jpg "interpratable")
+In first block we separate the seen class from the open-set and pass the unknown data into 
+our Supervised Contrastive Kmeans Dirichlet process Gaussian mixture model(SCKDG) in which a semi Expectation Maximization Algorithm is used so that in 
+expectation phase we try to find the best-fit clustering for a desired embedding and in 
+maximization step we find the most separate embedding for desired clustering with 
+the supervised contrastive learning algorithm, and continue this training procedure until 
+convergence (or iterate until max_epoch).
+
+The final accuracy of this part is 63% . the visualization of the clustering output of 
+our model on test is as follow:
+
+
+
+   ![open](images/ph1_2.jpg "open")
 
 
 ## References 
